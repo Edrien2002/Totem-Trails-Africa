@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - Totem Trails Africa</title>
+    <link rel="stylesheet" href="projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpeg" alt="Totem Trails Africa Logo">
+                <span>TOTEM TRAILS <strong>AFRICA</strong></span>
+            </a>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="btn-nav">Get Involved</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Hero -->
+    <section class="projects-hero">
+        <div class="container">
+            <h1>Our Project Portfolio</h1>
+            <p>Implementing diverse projects designed to maximize impact and ensure relevance in a digital-first world.</p>
+        </div>
+    </section>
+
+    <!-- Project Filter -->
+    <section class="project-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="digital">Digital Platforms</button>
+                <button class="filter-btn" data-filter="education">Education & Research</button>
+                <button class="filter-btn" data-filter="community">Community Engagement</button>
+                <button class="filter-btn" data-filter="tourism">Eco-Tourism</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid-section">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1: Super App -->
+                <div class="project-card" id="superapp" data-category="digital">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <img src="images/game.jpeg" class="featured-img">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Digital Platform</span>
+                        <h3>Totem Trails "Super App" & Gamification Platform</h3>
+                        <p>A flagship digital ecosystem inspired by successful models like Pokémon Go and Duolingo.</p>
+                        <ul class="project-features">
+                            <li><strong>AI Totem Finder:</strong> Uses lineage-based AI to assign users their real ancestral totem</li>
+                            <li><strong>"Play to Preserve" Engine:</strong> Gamifies real-world conservation with Eco-Credits</li>
+                            <li><strong>Verification Technology:</strong> Uses GPS, AI image recognition, and time-stamping</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">Gamification</span>
+                            <span class="tech-tag">Mobile App</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Encyclopedia -->
+                <div class="project-card" id="encyclopedia" data-category="education">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <img src="images/living totem encyclopedia.png" class="featured-img">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Education & Research</span>
+                        <h3>Africa's First "Living Totem Encyclopedia"</h3>
+                        <p>An AI-powered digital archive documenting the histories, ecological roles, and cultural stories of all Ugandan totems.</p>
+                        <ul class="project-features">
+                            <li><strong>Heritage Vault:</strong> Digitizes and preserves elder knowledge for future generations</li>
+                            <li><strong>Interactive Learning:</strong> Engaging multimedia content about each totem</li>
+                            <li><strong>Research Platform:</strong> Tools for scholars and students to study African ecology and culture</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">Database</span>
+                            <span class="tech-tag">Multimedia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: AR/VR Storytelling -->
+                <div class="project-card" id="storytelling" data-category="digital">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <img src="images/ARVR Cultural Storytelling Experience.png" class="featured-img">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Digital Platform</span>
+                        <h3>Immersive Cultural Storytelling (AR/VR)</h3>
+                        <p>Holographic exhibitions and 3D ecological landscapes that allow users to interact with their totems digitally.</p>
+                        <ul class="project-features">
+                            <li><strong>Holographic Exhibitions:</strong> Virtual totem ceremonies and cultural displays</li>
+                            <li><strong>3D Ecological Landscapes:</strong> Explore virtual African ecosystems</li>
+                            <li><strong>Quest-Based Engagement:</strong> Turns learning into an immersive journey</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">AR/VR</span>
+                            <span class="tech-tag">3D Modeling</span>
+                            <span class="tech-tag">Interactive Media</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Totem Events -->
+                <div class="project-card" id="events" data-category="tourism">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <img src="images/Totem Events & Eco-Tourism Activities.png" class="featured-img">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Eco-Tourism</span>
+                        <h3>Totem Events & Eco-Tourism Trails</h3>
+                        <p>Hosting "Totem Heritage Days" and curated "Totem Trails" experiences that merge cultural performance with eco-tourism.</p>
+                        <ul class="project-features">
+                            <li><strong>Totem Heritage Days:</strong> Cultural festivals celebrating specific totems</li>
+                            <li><strong>Curated Trails:</strong> Guided eco-tours through significant cultural landscapes</li>
+                            <li><strong>Revenue Generation:</strong> Creates income for local clans and the organization</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Eco-Tourism</span>
+                            <span class="tech-tag">Event Management</span>
+                            <span class="tech-tag">Cultural Preservation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Digital Employment -->
+                <div class="project-card" data-category="community">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <img src="images/Digital Employment Pipeline Training.png" class="featured-img">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Community Engagement</span>
+                        <h3>Digital Employment Pipeline</h3>
+                        <p>Creating sustainable livelihoods where youth earn income as digital naturalists, eco-mappers, and cultural storytellers.</p>
+                        <ul class="project-features">
+                            <li><strong>Youth Training:</strong> Digital skills development for conservation careers</li>
+                            <li><strong>Freelance Platform:</strong> Connects skilled youth with conservation projects</li>
+                            <li><strong>Micro-Entrepreneurship:</strong> Supports youth-led conservation businesses</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Training</span>
+                            <span class="tech-tag">Employment</span>
+                            <span class="tech-tag">Community Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Clan Onboarding -->
+                <div class="project-card" data-category="community">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <img src="images/Clan Onboarding & Community Workshops.png" class="featured-img">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Community Engagement</span>
+                        <h3>Clan Digital Onboarding Program</h3>
+                        <p>Digitally onboarding thousands of clans across Africa to participate in conservation through technology.</p>
+                        <ul class="project-features">
+                            <li><strong>Community Workshops:</strong> Training elders and youth in digital tools</li>
+                            <li><strong>Knowledge Digitization:</strong> Preserving oral histories and cultural practices</li>
+                            <li><strong>Network Building:</strong> Connecting clans across regions for collaborative conservation</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Community</span>
+                            <span class="tech-tag">Digital Literacy</span>
+                            <span class="tech-tag">Networking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnership Model -->
+    <section class="partnership-model">
+        <div class="container">
+            <h2 class="section-title">Our Partnership & Impact Model</h2>
+            <div class="model-content">
+                <div class="model-card">
+                    <h3><i class="fas fa-handshake"></i> Strategic Partners</h3>
+                    <p>We collaborate with telecommunications leaders for data-driven distribution and conservation giants for ecological validation.</p>
+                    <div class="partner-types">
+                        <span>Technology Companies</span>
+                        <span>Conservation NGOs</span>
+                        <span>Academic Institutions</span>
+                        <span>Government Agencies</span>
+                    </div>
+                </div>
+
+                <div class="model-card">
+                    <h3><i class="fas fa-chart-line"></i> Financial Sustainability</h3>
+                    <p>Revenue is generated through a "Culture-Tech" model, including platform access, data partnerships, AR merchandise, and community-based eco-credit rewards.</p>
+                    <div class="revenue-streams">
+                        <span>Platform Subscriptions</span>
+                        <span>Data Partnerships</span>
+                        <span>AR Merchandise</span>
+                        <span>Eco-Tourism</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Interested in Our Projects?</h2>
+            <p>Partner with us or support our initiatives to bridge ancestral ecological wisdom with modern technology.</p>
+            <a href="contact.html" class="btn-primary">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <img src="images/logo.jpeg" alt="Totem Trails Africa Logo">
+                        <span>TOTEM TRAILS <strong>AFRICA</strong></span>
+                    </a>
+                    <p class="footer-tagline">"Play the game. Save the species. Restore the legacy."</p>
+                    <div class="social-icons">
+                        <a href="https://x.com/totemtrails"><i class="fab fa-twitter"></i></a>
+                        <a href="https://vm.tiktok.com/ZS91oC1EH8MM2-KeUP5/" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/posts/totem-trails-africa-%E2%84%A2-942716397_today-a-team-from-totem-trails-africa-joined-activity-7422737893497950208-z474?utm_source=share&utm_medium=member_android&rcm=ACoAAGMth9EBQI77yTjx3DebCLLL2258dAEy_oI"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Our Projects</h3>
+                    <ul>
+                        <li><a href="projects.html#superapp">Totem Trails Super App</a></li>
+                        <li><a href="projects.html#encyclopedia">Living Totem Encyclopedia</a></li>
+                        <li><a href="projects.html#storytelling">Immersive Storytelling (AR/VR)</a></li>
+                        <li><a href="projects.html#events">Totem Events & Eco-Tourism</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</li>
+                        <li><i class="fas fa-envelope"></i> totemtrailsafrica256@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +256 786042924</li>
+                        <li><i class="fas fa-phone"></i> +256 741741391</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Totem Trails Africa. All rights reserved.</p>
+                <p>Bridging ancestral ecological wisdom with modern technological innovation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
